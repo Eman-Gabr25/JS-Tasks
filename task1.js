@@ -1,4 +1,4 @@
-function multiplyBy(factor)
+function multiplyby(factor)
  {
     return function (number) 
     {
@@ -6,8 +6,8 @@ function multiplyBy(factor)
     };
 }
 
-const double = multiplyBy(2);
-const triple = multiplyBy(3);
+let double = multiplyby(2);
+let triple = multiplyby(3);
 
 for (let i = 1; i <= 10; i++)
      {
