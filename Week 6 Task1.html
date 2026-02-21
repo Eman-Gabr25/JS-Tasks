@@ -2,16 +2,15 @@
 <html>
 <body>
 
-  <button id="time"> Show The Current Time </button>
+<button onclick="showtime()">Show  The Current Time</button>
 
-  <script>
-    document.getElementById("time").addEventListener("click", function()
-     {
-      const now = new Date();          
-      alert("Current Time: " + now.toLocaleTimeString()); 
-    }
-);
-  </script>
+<script>
+function showtime()
+ {
+  let now = new Date();
+  alert(" The Current Time: " + now.toLocaleTimeString());
+}
+</script>
 
 </body>
 </html>
